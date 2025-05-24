@@ -1,0 +1,1 @@
+Forzar redeploy manual para Vercel 🚀

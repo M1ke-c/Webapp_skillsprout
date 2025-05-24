@@ -1,0 +1,5 @@
+# Carpetas que deben ser ignoradas por Git
+node_modules
+.next
+.env.local
+.DS_Store
