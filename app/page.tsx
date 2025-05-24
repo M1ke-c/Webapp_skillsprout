@@ -213,6 +213,149 @@ function MainContent() {
             </div>
           </div>
         </section>
+
+        {/* Stats Section */}
+        <section className="py-20 bg-black/20 border-y border-white/10">
+          <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+              <div>
+                <div className="text-4xl font-bold text-teal-400 mb-2">10K+</div>
+                <div className="text-white/70">Active Users</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-teal-400 mb-2">500+</div>
+                <div className="text-white/70">Certifications</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-teal-400 mb-2">200+</div>
+                <div className="text-white/70">Partner Companies</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-teal-400 mb-2">95%</div>
+                <div className="text-white/70">Success Rate</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Certifications */}
+        <section className="py-20">
+          <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold mb-6">Featured Certifications</h2>
+              <p className="text-white/70 text-lg max-w-3xl mx-auto">
+                Explore our most popular certification paths and start your Web3 journey today
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-black/20 border border-white/10 rounded-xl p-8 hover:border-teal-400/50 transition-colors">
+                <div className="w-14 h-14 rounded-full bg-teal-900/50 flex items-center justify-center mb-6">
+                  <Shield className="h-7 w-7 text-teal-400" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Smart Contract Security</h3>
+                <p className="text-white/70 mb-4">Master the fundamentals of smart contract security and auditing.</p>
+                <div className="flex items-center gap-2 text-teal-400">
+                  Learn More <ArrowRight className="h-4 w-4" />
+                </div>
+              </div>
+              <div className="bg-black/20 border border-white/10 rounded-xl p-8 hover:border-teal-400/50 transition-colors">
+                <div className="w-14 h-14 rounded-full bg-teal-900/50 flex items-center justify-center mb-6">
+                  <Wallet className="h-7 w-7 text-teal-400" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">DeFi Development</h3>
+                <p className="text-white/70 mb-4">Learn to build decentralized finance applications on Starknet.</p>
+                <div className="flex items-center gap-2 text-teal-400">
+                  Learn More <ArrowRight className="h-4 w-4" />
+                </div>
+              </div>
+              <div className="bg-black/20 border border-white/10 rounded-xl p-8 hover:border-teal-400/50 transition-colors">
+                <div className="w-14 h-14 rounded-full bg-teal-900/50 flex items-center justify-center mb-6">
+                  <Star className="h-7 w-7 text-teal-400" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Zero Knowledge Proofs</h3>
+                <p className="text-white/70 mb-4">Dive deep into ZK-proofs and their applications.</p>
+                <div className="flex items-center gap-2 text-teal-400">
+                  Learn More <ArrowRight className="h-4 w-4" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials Section */}
+        <section className="py-20 bg-black/20 border-y border-white/10">
+          <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold mb-6">What Our Users Say</h2>
+              <p className="text-white/70 text-lg max-w-3xl mx-auto">
+                Hear from professionals who have advanced their careers through Skill Sprout
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-black/40 backdrop-blur-sm rounded-xl p-8">
+                <p className="text-white/70 mb-6">"The micro-certifications helped me land my dream job in Web3. The practical assignments and real-world projects made all the difference."</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-teal-900/50 flex items-center justify-center">
+                    <Users className="h-6 w-6 text-teal-400" />
+                  </div>
+                  <div>
+                    <div className="font-bold">Alex Thompson</div>
+                    <div className="text-white/70 text-sm">Smart Contract Developer</div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-black/40 backdrop-blur-sm rounded-xl p-8">
+                <p className="text-white/70 mb-6">"The quality of content and the blockchain verification of skills make Skill Sprout stand out. It's the future of tech education."</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-teal-900/50 flex items-center justify-center">
+                    <Users className="h-6 w-6 text-teal-400" />
+                  </div>
+                  <div>
+                    <div className="font-bold">Sarah Chen</div>
+                    <div className="text-white/70 text-sm">DeFi Protocol Engineer</div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-black/40 backdrop-blur-sm rounded-xl p-8">
+                <p className="text-white/70 mb-6">"As a hiring manager, I trust Skill Sprout certifications because they represent real, verified skills. It's our go-to platform for talent."</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-teal-900/50 flex items-center justify-center">
+                    <Users className="h-6 w-6 text-teal-400" />
+                  </div>
+                  <div>
+                    <div className="font-bold">Michael Rodriguez</div>
+                    <div className="text-white/70 text-sm">Tech Lead at BlockChain Co</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Newsletter Section */}
+        <section className="py-20">
+          <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+            <div className="bg-gradient-to-r from-teal-900/50 to-blue-900/50 rounded-2xl p-8 md:p-12">
+              <div className="max-w-2xl mx-auto text-center">
+                <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
+                <p className="text-white/70 mb-8">
+                  Get the latest updates on new certifications, job opportunities, and Web3 insights.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="flex-1 px-4 py-3 bg-black/40 border border-white/10 rounded-lg focus:outline-none focus:border-teal-400"
+                  />
+                  <button className="px-6 py-3 bg-teal-600 hover:bg-teal-700 rounded-lg text-white transition-colors">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </main>
 
       {/* Footer */}
