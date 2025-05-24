@@ -14,7 +14,7 @@ export default function Footer() {
           className="hover:opacity-80 transition-opacity duration-300 flex flex-col items-center gap-2 group"
         >
           <div className="w-6 h-6 text-gray-400 group-hover:text-white transition-colors">
-            <FaXTwitter size="100%" />
+            <FaTwitter size="100%" />
           </div>
           <span className="text-sm group-hover:text-white transition-colors">Twitter</span>
         </a>
