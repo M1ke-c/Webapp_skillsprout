@@ -44,7 +44,7 @@ function MainContent() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Background con gradiente animado */}
+      {/* Background with animated gradient */}
       <div className="fixed inset-0 -z-10 bg-[#0c0c15]">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0c0c15] via-[#0f172a] to-[#0c0c15]"></div>
         <div className="absolute inset-0 bg-[url('/grid.png')] bg-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
@@ -130,14 +130,13 @@ function MainContent() {
                   </div>
                   <div className="space-y-2">
                     <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none">
-                      Grow Your Web3 Career with{" "}
+                      Looking for your certifications? Grow Your profile with{" "}
                       <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
                         Verified Skills
                       </span>
                     </h1>
                     <p className="text-white/70 md:text-xl max-w-3xl mx-auto lg:mx-0">
-                      Earn micro-certifications, showcase your blockchain expertise, and connect with top Web3 companies
-                      looking for Starknet talent.
+                    Build a decentralized credentialing and project-validation system powered by Starknet smart contracts. Earn micro-certifications, prove your technical achievements on-chain, and showcase your verified Web3 expertise to top companies. Each candidate’s interaction—whether completing a challenge, submitting code, or deploying an app—is immutably recorded via Starknet smart contracts, enabling transparent, trustless hiring pipelines across all your applications
                     </p>
                   </div>
                   <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
@@ -174,8 +173,8 @@ function MainContent() {
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-6">How Skill Sprout Works</h2>
               <p className="text-white/70 text-lg max-w-3xl mx-auto">
-                Our platform connects Web3 talent with opportunities through verified micro-certifications
-                and a specialized blockchain talent marketplace.
+                Our platform connects the best talent with opportunities through verified micro-certifications
+                and a specialized blockchain talent marketplace which is powered by Starknet smart contacts.  
               </p>
             </div>
 

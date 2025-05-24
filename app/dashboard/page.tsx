@@ -57,7 +57,7 @@ export default function Dashboard() {
               onClick={logout}
               className="px-4 py-2 bg-red-600 hover:bg-red-700 transition-colors rounded-lg text-white text-sm"
             >
-              Cerrar Sesión
+              Sign out
             </button>
           </div>
         </div>
@@ -66,44 +66,45 @@ export default function Dashboard() {
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Dashboard de Microcertificaciones</h1>
+          <h1 className="text-3xl font-bold mb-2">Microcertifications Dashboard</h1>
           <p className="text-white/70">
-            Aquí puedes ver y gestionar tus microcertificaciones en la blockchain de Starknet
+            You can see and manage your certifications in Blockchin throuhg Starknet
+            
           </p>
           {account && (
             <p className="text-sm text-white/50 mt-2">
-              Wallet conectada: {account.slice(0, 6)}...{account.slice(-4)}
+              Wallet connected successfully: {account.slice(0, 6)}...{account.slice(-4)}
             </p>
           )}
         </div>
         
-        {/* Grid de certificaciones */}
+        {/* Certification Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Placeholder para certificaciones */}
+          {/* Certification Placeholder  */}
           <div className="bg-black/20 border border-white/10 backdrop-blur-sm rounded-xl p-6 group hover:border-white/20">
             <div className="w-12 h-12 rounded-full bg-teal-900/50 flex items-center justify-center mb-4">
               <span className="text-2xl">🎓</span>
             </div>
             <h3 className="text-xl font-bold mb-2">Starknet Basics</h3>
             <p className="text-white/70 text-sm mb-4">
-              Fundamentos de desarrollo en Starknet y Cairo
+              Learn the basics of Starknet and Cairo
             </p>
             <div className="text-xs text-white/50">
               Estado: Pendiente
             </div>
           </div>
 
-          {/* Más placeholders... */}
+          {/* More placeholders... */}
           <div className="bg-black/20 border border-white/10 backdrop-blur-sm rounded-xl p-6 group hover:border-white/20">
             <div className="w-12 h-12 rounded-full bg-teal-900/50 flex items-center justify-center mb-4">
               <span className="text-2xl">⚡</span>
             </div>
-            <h3 className="text-xl font-bold mb-2">Smart Contracts Avanzados</h3>
+            <h3 className="text-xl font-bold mb-2">Advanced Smart Contracts</h3>
             <p className="text-white/70 text-sm mb-4">
-              Desarrollo de contratos inteligentes avanzados en Cairo
+              Development of advanced smart contracts in Cairo
             </p>
             <div className="text-xs text-white/50">
-              Estado: Disponible
+              Status: Available
             </div>
           </div>
 
@@ -111,12 +112,12 @@ export default function Dashboard() {
             <div className="w-12 h-12 rounded-full bg-teal-900/50 flex items-center justify-center mb-4">
               <span className="text-2xl">🔐</span>
             </div>
-            <h3 className="text-xl font-bold mb-2">Seguridad en Starknet</h3>
+            <h3 className="text-xl font-bold mb-2">Security in Starknet</h3>
             <p className="text-white/70 text-sm mb-4">
-              Mejores prácticas de seguridad en contratos Cairo
+              Best practices for security in Cairo contracts
             </p>
             <div className="text-xs text-white/50">
-              Estado: Próximamente
+              Status: Coming soon
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto flex justify-center items-center space-x-8">
         {/* Twitter/X Icon */}
         <a 
-          href="#" // Aquí pondrás tu enlace de Twitter cuando lo tengas
+          href="https://x.com/Dojo_Coding" // Here you can your twitter app link 
           target="_blank" 
           rel="noreferrer" 
           className="hover:opacity-80 transition-opacity duration-300 flex flex-col items-center gap-2 group"
